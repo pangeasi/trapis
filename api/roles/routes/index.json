@@ -1,0 +1,12 @@
+[
+  {
+    "method": "GET",
+    "endpoint": "/roles",
+    "handler": "find"
+  },
+  {
+    "method": "GET",
+    "endpoint": "/rol",
+    "handler": "findOne"
+  }
+]

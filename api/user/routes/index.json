@@ -1,0 +1,12 @@
+[
+  {
+    "method": "GET",
+    "endpoint": "/users",
+    "handler": "find"
+  },
+  {
+    "method": "GET",
+    "endpoint": "/user",
+    "handler": "findOne"
+  }
+]
