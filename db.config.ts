@@ -8,6 +8,6 @@ export const configDB: ConnectionOptions = {
   password: "12345",
   database: "db",
   synchronize: true,
+  dropSchema: true,
   logging: true,
-  entities: ["generated/entities/*.ts"],
 };
